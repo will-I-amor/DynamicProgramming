@@ -1,0 +1,22 @@
+#不太好想，但是也make sense，中间new_excl那比较困惑
+def find_max_sum(arr):
+    incl = 0
+    excl = 0
+    
+    for i in arr:
+         
+        # Current max excluding i (No ternary in 
+        # Python)
+        new_excl = excl if excl>incl else incl
+        
+        # Current max including i
+        incl = excl + i
+        excl = new_excl
+     
+    # return max of incl and excl
+    return (excl if excl>incl else incl)
+
+arr1 = [4,1,1,4,2,1]
+arr = [2,5,3,1,7]
+x = find_max_sum(arr)
+print x
