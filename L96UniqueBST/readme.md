@@ -16,3 +16,5 @@
 2为root，{1}在左面，{3,4}在右面。那么就可以根据这个规律来用DP解题。
 
 ![](https://i.imgur.com/3qx325x.jpg)
+
+![](https://i.imgur.com/kQVz8mw.jpg)
