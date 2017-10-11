@@ -3,4 +3,5 @@
 nums[i]的r,只跟前一个item的nr有关；
 
 nums[i]的nr,只跟前一个item的r有关
-![](https://i.imgur.com/5w9lWFy.jpg)
+
+![](https://i.imgur.com/YX7WUvF.jpg)
