@@ -1,3 +1,7 @@
+#建3个数，maxCur, minCur和product
+#maxCur = max(maxCur*nums[i],minCur*nums[i],nums[i])
+#minCur = min(maxCur*nums[i],minCur*nums[i],nums[i])
+#product = max(maxCur,product)
 def getMax(a,b,c):
     if a>=b and a>=c:
         return a
